@@ -14,7 +14,7 @@ namespace hiqdev\php\merchant\ecoin;
 class Merchant extends \hiqdev\php\merchant\Merchant
 {
     protected static $_defaults = [
-        'name'        => 'ecoin',
+        'system'      => 'ecoin',
         'label'       => 'eCoin',
         'actionUrl'   => 'https://ecoin.cc/account/mpay/',
         'confirmText' => 'OK',
