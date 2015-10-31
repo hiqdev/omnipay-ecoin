@@ -41,7 +41,7 @@ class Merchant extends \hiqdev\php\merchant\Merchant
 
     public function validateConfirmation($data)
     {
-        $str = $data['ECM_TRANS_ID'] . $data['ECM_TRANS_DATE'] . $this->purse . $data['ECM_PAYER_ID'] . $data['ECM_ITEM_COST'] . $data['ECM_QTY'] . $this->secret;
+        $str = $data['ECM_TRANS_ID'] . $data['ECM_TRANS_DATE'] . $this->purse . $data['ECM_PAYER_ID'] . $data['ECM_ITEM_COST'] . $data['ECM_QTY'] . $this->_secret;
         if (md5($str) !== strtolower($data['ECM_HASH'])) {
             return 'wrong hash';
         }
