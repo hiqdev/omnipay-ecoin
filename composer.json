@@ -4,11 +4,13 @@
     "description": "eCoin driver for Omnipay PHP payment library",
     "keywords": [
         "php",
+        "omnipay",
         "ecoin",
-        "merchant"
+        "merchant",
+        "payment"
     ],
     "homepage": "https://github.com/hiqdev/omnipay-ecoin",
-    "license": "BSD-3-Clause",
+    "license": "MIT",
     "support": {
         "email": "support@hiqdev.com",
         "source": "https://github.com/hiqdev/omnipay-ecoin",

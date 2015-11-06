@@ -33,7 +33,7 @@ to the require section of your composer.json.
 
 The following gateway is provided by this package:
 
-* [eCoin](http://eCoin.cc/)
+* [eCoin](http://ecoin.cc/)
 
 For general usage instructions, please see the main [Omnipay](https://github.com/omnipay/omnipay) repository.
 
@@ -52,7 +52,7 @@ or better yet, fork the library and submit a pull request.
 
 ## License
 
-This project is released under the terms of the BSD-3-Clause [license](https://github.com/hiqdev/omnipay-ecoin/blob/master/LICENSE).
-Read more [here](http://choosealicense.com/licenses/bsd-3-clause).
+This project is released under the terms of the MIT [license](https://github.com/hiqdev/omnipay-ecoin/blob/master/LICENSE).
+Read more [here](http://choosealicense.com/licenses/mit).
 
 Copyright © 2015, HiQDev (http://hiqdev.com/)
