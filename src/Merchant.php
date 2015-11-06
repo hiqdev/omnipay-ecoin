@@ -1,10 +1,10 @@
 <?php
 
 /*
- * eCoin plugin for PHP merchant library
+ * eCoin driver for Omnipay PHP payment library
  *
- * @link      https://github.com/hiqdev/php-merchant-ecoin
- * @package   php-merchant-ecoin
+ * @link      https://github.com/hiqdev/omnipay-ecoin
+ * @package   omnipay-ecoin
  * @license   BSD-3-Clause
  * @copyright Copyright (c) 2015, HiQDev (http://hiqdev.com/)
  */
