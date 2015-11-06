@@ -1,19 +1,19 @@
 {
-    "name": "hiqdev/php-merchant-ecoin",
+    "name": "hiqdev/omnipay-ecoin",
     "type": "library",
-    "description": "eCoin plugin for PHP merchant library",
+    "description": "eCoin driver for Omnipay PHP payment library",
     "keywords": [
         "php",
         "ecoin",
         "merchant"
     ],
-    "homepage": "https://github.com/hiqdev/php-merchant-ecoin",
+    "homepage": "https://github.com/hiqdev/omnipay-ecoin",
     "license": "BSD-3-Clause",
     "support": {
         "email": "support@hiqdev.com",
-        "source": "https://github.com/hiqdev/php-merchant-ecoin",
-        "issues": "https://github.com/hiqdev/php-merchant-ecoin/issues",
-        "wiki": "https://github.com/hiqdev/php-merchant-ecoin/wiki",
+        "source": "https://github.com/hiqdev/omnipay-ecoin",
+        "issues": "https://github.com/hiqdev/omnipay-ecoin/issues",
+        "wiki": "https://github.com/hiqdev/omnipay-ecoin/wiki",
         "forum": "http://forum.hiqdev.com/"
     },
     "authors": [
@@ -43,11 +43,11 @@
         }
     ],
     "require": {
-        "hiqdev/php-merchant": "*"
+        "omnipay/common": "~2.3"
     },
     "autoload": {
         "psr-4": {
-            "hiqdev\\php\\merchant\\ecoin\\": "src"
+            "Omnipay\\eCoin\\": "src"
         }
     }
 }

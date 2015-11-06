@@ -1,5 +1,5 @@
-hiqdev/php-merchant-ecoin changelog
------------------------------------
+hiqdev/omnipay-ecoin changelog
+------------------------------
 
 ## Under development
 
