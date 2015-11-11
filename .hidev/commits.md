@@ -3,6 +3,8 @@ hiqdev/omnipay-ecoin commits history
 
 ## Under development
 
+- Changed: redone to 'omnipay-ecoin'
+    - c7cee41 2015-11-11 still redoing to omnipay (sol@hiqdev.com)
     - 7d58116 2015-11-06 redoing to 'omnipay-ecoin' (sol@hiqdev.com)
     - 5f493d5 2015-10-31 fixed '_secret' <- 'secret' (sol@hiqdev.com)
 - Added basics
