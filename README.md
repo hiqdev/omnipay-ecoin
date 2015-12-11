@@ -5,6 +5,7 @@ Omnipay: eCoin
 
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/omnipay-ecoin/v/stable)](https://packagist.org/packages/hiqdev/omnipay-ecoin)
 [![Total Downloads](https://poser.pugx.org/hiqdev/omnipay-ecoin/downloads)](https://packagist.org/packages/hiqdev/omnipay-ecoin)
+[![Build Status](https://img.shields.io/travis/hiqdev/omnipay-ecoin.svg)](https://travis-ci.org/hiqdev/omnipay-ecoin)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:omnipay-ecoin/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:omnipay-ecoin/dev-master)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
@@ -17,7 +18,7 @@ The preferred way to install this library is through [composer](http://getcompos
 
 Either run
 
-```
+```sh
 php composer.phar require "hiqdev/omnipay-ecoin"
 ```
 

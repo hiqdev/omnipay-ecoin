@@ -12,5 +12,5 @@ package:
         This package implements [eCoin](http://ecoin.cc/) support for Omnipay.
 
 require:
-    hiqdev/hidev-config:        "*"
-    hiqdev/hidev-config-php:    "*"
+    hiqdev/hidev-vendor: "*"
+    hiqdev/hidev-php:    "*"
