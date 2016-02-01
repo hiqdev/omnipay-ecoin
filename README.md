@@ -6,10 +6,13 @@ Omnipay: eCoin
 [![Latest Stable Version](https://poser.pugx.org/hiqdev/omnipay-ecoin/v/stable)](https://packagist.org/packages/hiqdev/omnipay-ecoin)
 [![Total Downloads](https://poser.pugx.org/hiqdev/omnipay-ecoin/downloads)](https://packagist.org/packages/hiqdev/omnipay-ecoin)
 [![Build Status](https://img.shields.io/travis/hiqdev/omnipay-ecoin.svg)](https://travis-ci.org/hiqdev/omnipay-ecoin)
+[![Code Coverage](https://scrutinizer-ci.com/g/hiqdev/omnipay-ecoin/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/omnipay-ecoin/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/hiqdev/omnipay-ecoin/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/hiqdev/omnipay-ecoin/?branch=master)
 [![Dependency Status](https://www.versioneye.com/php/hiqdev:omnipay-ecoin/dev-master/badge.svg)](https://www.versioneye.com/php/hiqdev:omnipay-ecoin/dev-master)
 
 [Omnipay](https://github.com/omnipay/omnipay) is a framework agnostic, multi-gateway payment
 processing library for PHP 5.3+.
+
 This package implements [eCoin](http://ecoin.cc/) support for Omnipay.
 
 ## Installation
@@ -56,4 +59,4 @@ or better yet, fork the library and submit a pull request.
 This project is released under the terms of the MIT [license](LICENSE).
 Read more [here](http://choosealicense.com/licenses/mit).
 
-Copyright © 2015, HiQDev (http://hiqdev.com/)
+Copyright © 2015-2016, HiQDev (http://hiqdev.com/)
