@@ -73,6 +73,7 @@ class CompletePurchaseResponseTest extends TestCase
         $this->assertSame($this->amount,                $response->getAmount());
         $this->assertSame($this->payer,                 $response->getPayer());
         $this->assertSame($this->hash,                  $response->getHash());
+        $this->assertSame($this->currency,              $response->getCurrency());
         $this->assertSame('2016-02-01T12:51:26+00:00',  $response->getTime());
     }
 }

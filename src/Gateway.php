@@ -26,11 +26,6 @@ class Gateway extends AbstractGateway
         return 'eCoin';
     }
 
-    public function getAssetDir()
-    {
-        return dirname(__DIR__) . '/assets';
-    }
-
     /**
      * {@inheritdoc}
      */
@@ -56,7 +51,7 @@ class Gateway extends AbstractGateway
     /**
      * Set the unified purse.
      *
-     * @param string $purse merchant purse
+     * @param string $value merchant purse
      *
      * @return self
      */
