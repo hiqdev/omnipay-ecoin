@@ -13,14 +13,13 @@ namespace Omnipay\eCoin\Message;
 
 use Omnipay\Common\Exception\InvalidResponseException;
 use Omnipay\Common\Message\AbstractResponse;
-use Omnipay\Common\Message\RequestInterface;
 
 /**
  * eCoin Complete Purchase Response.
  */
 class CompletePurchaseResponse extends AbstractResponse
 {
-    public function __construct(RequestInterface $request, $data)
+    public function __construct(CompletePurchaseRequest $request, $data)
     {
         $this->request = $request;
         $this->data    = $data;

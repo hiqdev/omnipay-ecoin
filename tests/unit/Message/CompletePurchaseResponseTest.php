@@ -26,7 +26,6 @@ class CompletePurchaseResponseTest extends TestCase
     private $timestamp              = '1454331086';
     private $payer                  = 'ec54321';
     private $amount                 = '1465.01';
-    private $status                 = 'done';
     private $currency               = 'USD';
     private $testMode               = false;
 
