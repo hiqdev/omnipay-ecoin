@@ -3,6 +3,8 @@ hiqdev/omnipay-ecoin commits history
 
 ## Under development
 
+- Added tests (coverage 100%)
+    - 9afedb2 2016-02-01 added test coverage 100% (sol@hiqdev.com)
     - 55b802c 2016-02-01 added tests (sol@hiqdev.com)
     - 5002d53 2016-02-01 rehideved (sol@hiqdev.com)
 - Changed: redone to `omnipay-ecoin`

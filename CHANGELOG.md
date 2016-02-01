@@ -3,6 +3,7 @@ hiqdev/omnipay-ecoin changelog
 
 ## Under development
 
+- Added tests (coverage 100%)
 - Changed: redone to `omnipay-ecoin`
 - Added basics
 
