@@ -31,7 +31,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
     /**
      * Set the purse.
      *
-     * @param string $purse purse
+     * @param string $value purse
      *
      * @return self
      */
@@ -53,7 +53,7 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
     /**
      * Set the secret key.
      *
-     * @param string $key secret key
+     * @param string $value secret key
      *
      * @return self
      */
