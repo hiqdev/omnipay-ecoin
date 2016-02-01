@@ -45,9 +45,9 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
      *
      * @return string secret key
      */
-    public function getPassword()
+    public function getSecret()
     {
-        return $this->getParameter('secretKey');
+        return $this->getParameter('secret');
     }
 
     /**
@@ -57,8 +57,8 @@ abstract class AbstractRequest extends \Omnipay\Common\Message\AbstractRequest
      *
      * @return self
      */
-    public function setPassword($value)
+    public function setSecret($value)
     {
-        return $this->setParameter('secretKey', $value);
+        return $this->setParameter('secret', $value);
     }
 }

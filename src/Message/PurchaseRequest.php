@@ -23,10 +23,10 @@ class PurchaseRequest extends AbstractRequest
 
         return [
             'ECM_PURCH_DESC'  => $this->getDescription(),
-            'ECM_INV_TITLE'   => $this->invTitle,
+            'ECM_INV_NO'      => $this->getTransactionId(),
             'ECM_PAYEE_ID'    => $this->getPurse(),
             'ECM_ITEM_COST'   => $this->getAmount(),
-            'ECM_QTY'         => 1,
+            'ECM_QTY'         => '1',
             'ECM_RESULT_URL'  => $this->getNotifyUrl(),
             'ECM_SUCCESS_URL' => $this->getReturnUrl(),
             'ECM_FAIL_URL'    => $this->getCancelUrl(),
