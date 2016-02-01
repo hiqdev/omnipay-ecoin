@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Paxum plugin for PHP merchant library
+ * eCoin driver for Omnipay PHP payment library
  *
  * @link      https://github.com/hiqdev/omnipay-ecoin
  * @package   omnipay-ecoin
