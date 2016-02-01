@@ -3,6 +3,8 @@ hiqdev/omnipay-ecoin commits history
 
 ## Under development
 
+    - 55b802c 2016-02-01 added tests (sol@hiqdev.com)
+    - 5002d53 2016-02-01 rehideved (sol@hiqdev.com)
 - Changed: redone to `omnipay-ecoin`
     - 25aabd1 2015-12-10 removed assets, now in `payment-icons` (sol@hiqdev.com)
     - c7cee41 2015-11-11 still redoing to omnipay (sol@hiqdev.com)
