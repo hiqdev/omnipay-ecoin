@@ -41,7 +41,7 @@ class CompletePurchaseResponse extends AbstractResponse
 
     /**
      * Whether the payment is test.
-     * XXX TODO
+     * XXX TODO.
      * @return boolean
      */
     public function getTestMode()
@@ -126,8 +126,7 @@ class CompletePurchaseResponse extends AbstractResponse
                 $this->data['ECM_PAYER_ID'] .
                 $this->data['ECM_ITEM_COST'] .
                 $this->data['ECM_QTY'] .
-                $this->request->getSecret()
-        ;
+                $this->request->getSecret();
 
         return md5($str);
     }
