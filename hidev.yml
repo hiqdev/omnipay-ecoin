@@ -1,7 +1,6 @@
 package:
     type:           library
     name:           omnipay-ecoin
-    namespace:      Omnipay\eCoin
     headline:       "Omnipay: eCoin"
     title:          eCoin driver for Omnipay PHP payment library
     license:        MIT
@@ -11,7 +10,3 @@ package:
         processing library for PHP 5.3+.
 
         This package implements [eCoin](http://ecoin.cc/) support for Omnipay.
-
-require:
-    hiqdev/hidev-php:    "*"
-    hiqdev/hidev-vendor: "*"
