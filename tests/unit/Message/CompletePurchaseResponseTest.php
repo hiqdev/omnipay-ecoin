@@ -43,7 +43,8 @@ class CompletePurchaseResponseTest extends TestCase
 
     public function testInvalidHashException()
     {
-        $this->setExpectedException('Omnipay\Common\Exception\InvalidResponseException', 'Invalid hash');
+        $this->expectException(\Omnipay\Common\Exception\InvalidResponseException::class);
+        $this->expectExceptionMessage('Invalid hash');
         new CompletePurchaseResponse($this->request, [
             'description'           => $this->description,
         ]);
